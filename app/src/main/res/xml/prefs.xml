@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Appearance">
+
+        <com.alchemist.syncasts.ui.views.ColorPreference
+            android:title="@string/title_theme_primary"
+            android:key="@string/pref_key_color_primary"
+            android:defaultValue="5"
+            app:colorChoices="@array/primary_colors"/>
+
+        <com.alchemist.syncasts.ui.views.ColorPreference
+            android:title="@string/title_theme_accent"
+            android:key="@string/pref_key_color_accent"
+            android:defaultValue="5"
+            app:colorChoices="@array/accent_colors"/>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_color_base"
+            android:summary="Apply a dark theme throughout the app"
+            android:title="Dark theme" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

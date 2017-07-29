@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alchemist.syncasts">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".SyncastsApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.feedviewer.FeedViewerActivity" />
+        <activity android:name=".ui.player.PlayerActivity" />
+        <activity android:name=".ui.search.SearchActivity" android:theme="@style/AppTheme.Translucent.Search" />
+        <activity android:name=".ui.settings.SettingsActivity" android:theme="@style/AppTheme.SettingsActivity"/>
+
+        <service android:name=".services.PlaybackService" android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.alchemist.syncasts.action.ACTION_PLAY_TOGGLE"/>
+                <action android:name="com.alchemist.syncasts.action.ACTION_STOP_SERVICE"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

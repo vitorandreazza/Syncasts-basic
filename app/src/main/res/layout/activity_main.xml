@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:fitsSystemWindows="false"
+    sothree:umanoPanelHeight="0dp"
+    sothree:umanoInitialState="hidden"
+    sothree:umanoAnchorPoint="0.7"
+    sothree:umanoParallaxOffset="100dp"
+    sothree:umanoShadowHeight="0dp"
+    sothree:umanoOverlay="true"
+    sothree:umanoDragView="@+id/drag_panel"
+    sothree:umanoScrollableView="@+id/scroll">
+
+    <!-- MAIN CONTENT -->
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="com.alchemist.syncasts.ui.main.MainActivity" >
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp" >
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:title="@string/app_name"
+                app:titleTextColor="@android:color/white"
+                style="@style/Widget.AppTheme.HomeToolbar" />
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tablayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|enterAlways"
+                app:tabMaxWidth="0dp"
+                app:tabSelectedTextColor="#fff"
+                app:tabTextColor="#bfff"
+                app:tabGravity="fill"
+                app:tabMode="fixed" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <!-- SLIDING LAYOUT -->
+    <fragment
+        android:id="@+id/fragment_itunes_podcast_details"
+        android:name="com.alchemist.syncasts.ui.podcastdetails.ItunesPodcastDetailsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/fragment_podcast_details" />
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

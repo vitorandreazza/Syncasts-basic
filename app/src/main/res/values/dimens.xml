@@ -1,0 +1,24 @@
+<resources>
+
+    <dimen name="double_standard_margin">32dp</dimen>
+    <dimen name="standard_margin">16dp</dimen>
+    <dimen name="half_standard_margin">8dp</dimen>
+    <dimen name="content_standard_margin">72dp</dimen>
+    <dimen name="list_height">72dp</dimen>
+    <dimen name="grid_space">4dp</dimen>
+    <dimen name="min_touch_dimen">48dp</dimen>
+    <dimen name="player_frame_peek">208dp</dimen>
+    <dimen name="app_bar_elevation">4dp</dimen>
+    <dimen name="spacing_huge">64dp</dimen>
+    <dimen name="progress_bar">16dp</dimen>
+    <dimen name="episode_header">200dp</dimen>
+    <dimen name="podcast_header">130dp</dimen>
+    <dimen name="color_grid_extra_padding">32dp</dimen>
+    <dimen name="color_grid_circle_size">36dp</dimen>
+    <dimen name="color_grid_item_size">48dp</dimen>
+
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="countries">
+        <item>@string/australia</item>
+        <item>@string/belgium</item>
+        <item>@string/brazil</item>
+        <item>@string/canada</item>
+        <item>@string/china</item>
+        <item>@string/denmark</item>
+        <item>@string/france</item>
+        <item>@string/germany</item>
+        <item>@string/italy</item>
+        <item>@string/japan</item>
+        <item>@string/norway</item>
+        <item>@string/russia</item>
+        <item>@string/spain</item>
+        <item>@string/sweden</item>
+        <item>@string/switzerland</item>
+        <item>@string/united_kingdom</item>
+        <item>@string/united_states</item>
+    </string-array>
+
+    <string-array name="country_values" translatable="false">
+        <item>au</item>
+        <item>be</item>
+        <item>br</item>
+        <item>ca</item>
+        <item>cn</item>
+        <item>dk</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>it</item>
+        <item>jp</item>
+        <item>no</item>
+        <item>ru</item>
+        <item>es</item>
+        <item>se</item>
+        <item>ch</item>
+        <item>gb</item>
+        <item>us</item>
+    </string-array>
+
+    <integer-array name="primary_colors">
+        <item>@color/primary_grey</item>
+        <item>@color/primary_red</item>
+        <item>@color/primary_orange</item>
+        <item>@color/primary_yellow</item>
+        <item>@color/primary_green</item>
+        <item>@color/primary</item>
+        <item>@color/primary_purple</item>
+        <item>@color/primary_black</item>
+        <item>@color/primary_blue</item>
+    </integer-array>
+
+    <integer-array name="accent_colors">
+        <item>@color/accent_grey</item>
+        <item>@color/accent_red</item>
+        <item>@color/accent_orange</item>
+        <item>@color/accent_yellow</item>
+        <item>@color/accent_green</item>
+        <item>@color/accent</item>
+        <item>@color/accent_purple</item>
+        <item>@color/accent_black</item>
+        <item>@color/accent_blue</item>
+    </integer-array>
+
+</resources>

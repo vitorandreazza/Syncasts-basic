@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider">#dbdbdb</color>
+    <color name="scrim">#73000000</color>
+    <color name="background_selected">#CCCCCC</color>
+    <color name="background">#FFFFFF</color>
+    <color name="primary_text">#1e1e1e</color>
+    <color name="secondary_text">#6f6f6f</color>
+
+    <!-- Grey -->
+    <color name="primary_grey">#37474F</color>
+    <color name="primary_dark_grey">#263238</color>
+    <color name="accent_grey">#90A4AE</color>
+
+    <!-- Black -->
+    <color name="primary_black">#212121</color>
+    <color name="primary_dark_black">#171717</color>
+    <color name="accent_black">#00BFA5</color>
+
+    <!-- Red -->
+    <color name="primary_red">#C62828</color>
+    <color name="primary_dark_red">#B71C1C</color>
+    <color name="accent_red">#FF5252</color>
+
+    <!-- Orange -->
+    <color name="primary_orange">#EF6C00</color>
+    <color name="primary_dark_orange">#E65100</color>
+    <color name="accent_orange">#FF9100</color>
+
+    <!-- Yellow -->
+    <color name="primary_yellow">#F9A825</color>
+    <color name="primary_dark_yellow">#F57F17</color>
+    <color name="accent_yellow">#FFD600</color>
+
+    <!-- Green -->
+    <color name="primary_green">#2E7D32</color>
+    <color name="primary_dark_green">#1B5E20</color>
+    <color name="accent_green">#00C853</color>
+
+    <!-- Cyan -->
+    <color name="primary">#00838F</color>
+    <color name="primary_dark">#006064</color>
+    <color name="accent">#40C4FF</color>
+
+    <!-- Blue -->
+    <color name="primary_blue">#1565C0</color>
+    <color name="primary_dark_blue">#0D47A1</color>
+    <color name="accent_blue">#448AFF</color>
+
+    <!-- Purple -->
+    <color name="primary_purple">#6A1B9A</color>
+    <color name="primary_dark_purple">#4A148C</color>
+    <color name="accent_purple">#AA00FF</color>
+</resources>

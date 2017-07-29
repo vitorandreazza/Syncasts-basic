@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="android:colorControlNormal">@android:color/white</item>
+        <item name="android:colorEdgeEffect">?attr/colorAccent</item>
+        <item name="android:textViewStyle">@style/Widget.AppTheme.TextView</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="popupMenuStyle">@style/PopupMenu</item>
+    </style>
+
+    <style name="AppTheme.SettingsActivity" parent="Theme.AppCompat.DayNight.DarkActionBar" />
+
+    <style name="AppTheme.Translucent">
+        <item name="android:windowBackground">@color/scrim</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme.Translucent.Search">
+        <item name="android:windowAnimationStyle">@style/SearchWindowAnimations</item>
+        <item name="android:windowEnterTransition">@transition/search_enter</item>
+        <item name="android:windowReturnTransition">@transition/search_return</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/search_shared_enter</item>
+        <item name="android:windowSharedElementReturnTransition">@transition/search_shared_return</item>
+        <item name="android:windowSharedElementsUseOverlay">true</item>
+    </style>
+
+    <style name="SearchWindowAnimations">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_rapidly</item>
+    </style>
+
+    <style name="TextAppearance.ToolbarTitleSmallCaps" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFeatureSettings">smcp</item>
+        <item name="android:letterSpacing">0.2</item>
+    </style>
+
+    <style name="PopupMenu" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="overlapAnchor">true</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="TextAppearance.DialogContent" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:textColor">@android:color/secondary_text_light</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:letterSpacing">0.01</item>
+    </style>
+
+    <style name="Widget.AppTheme" parent="android:Widget" />
+
+    <style name="Widget.AppTheme.TextView" parent="android:Widget.TextView">
+        <item name="fontPath">fonts/Ubuntu-Regular.ttf</item>
+    </style>
+
+    <style name="Widget.AppTheme.Toolbar">
+        <item name="android:titleTextAppearance">@android:style/TextAppearance.Material.Widget.ActionBar.Title.Inverse</item>
+        <item name="android:background">?android:colorPrimary</item>
+    </style>
+
+    <style name="Widget.AppTheme.Toolbar.SmallCapsTitle">
+        <item name="android:titleTextAppearance">@style/TextAppearance.ToolbarTitleSmallCaps</item>
+    </style>
+
+    <style name="Widget.AppTheme.HomeToolbar" parent="Widget.AppTheme.Toolbar.SmallCapsTitle">
+        <item name="titleTextAppearance">@style/TextAppearance.ToolbarTitleSmallCaps</item>
+    </style>
+
+    <style name="ActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="Widget.AppTheme.EmptyText">
+        <item name="android:textAppearance">@style/TextAppearance.DialogContent</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/primary_text</item>
+    </style>
+
+    <style name="Widget.DiscreteSeekBar.SyncastsStyle">
+        <item name="dsb_indicatorTextAppearance">@style/Widget.DiscreteIndicatorTextAppearance</item>
+        <item name="dsb_progressColor">?attr/colorAccent</item>
+        <item name="dsb_indicatorColor">?attr/colorAccent</item>
+        <item name="dsb_rippleColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="Widget.DiscreteIndicatorTextAppearance" parent="android:TextAppearance.Small">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">6dp</item>
+    </style>
+
+    <style name="SearchViewTheme" parent="@android:style/ThemeOverlay.Material.Dark.ActionBar">
+        <item name="colorControlActivated">?attr/colorAccent</item>
+        <item name="android:searchViewStyle">@style/Widget.AppTheme.SearchView</item>
+    </style>
+
+    <style name="Widget.AppTheme.SearchView" parent="android:style/Widget.Material.SearchView">
+        <item name="android:searchIcon">@android:color/transparent</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="android:queryBackground">@android:color/transparent</item>
+        <item name="android:submitBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- Themes colors -->
+    <style name="Primary" />
+
+    <style name="Primary.Red">
+        <item name="colorPrimary">@color/primary_red</item>
+        <item name="colorPrimaryDark">@color/primary_dark_red</item>
+    </style>
+
+    <style name="Primary.Orange">
+        <item name="colorPrimary">@color/primary_orange</item>
+        <item name="colorPrimaryDark">@color/primary_dark_orange</item>
+    </style>
+
+    <style name="Primary.Yellow">
+        <item name="colorPrimary">@color/primary_yellow</item>
+        <item name="colorPrimaryDark">@color/primary_dark_yellow</item>
+    </style>
+
+    <style name="Primary.Green">
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryDark">@color/primary_dark_green</item>
+    </style>
+
+    <style name="Primary.Cyan">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+    </style>
+
+    <style name="Primary.Blue">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryDark">@color/primary_dark_blue</item>
+    </style>
+
+    <style name="Primary.Purple">
+        <item name="colorPrimary">@color/primary_purple</item>
+        <item name="colorPrimaryDark">@color/primary_dark_purple</item>
+    </style>
+
+    <style name="Primary.Grey">
+        <item name="colorPrimary">@color/primary_grey</item>
+        <item name="colorPrimaryDark">@color/primary_dark_grey</item>
+    </style>
+
+    <style name="Primary.Black">
+        <item name="colorPrimary">@color/primary_black</item>
+        <item name="colorPrimaryDark">@color/primary_dark_black</item>
+    </style>
+
+    <style name="Accent" />
+
+    <style name="Accent.Red">
+        <item name="colorAccent">@color/accent_red</item>
+        <item name="colorControlHighlight">@color/accent_red</item>
+        <item name="alertDialogTheme">@style/Accent.Red.AlertDialog</item>
+    </style>
+
+    <style name="Accent.Red.AlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/accent_red</item>
+    </style>
+
+    <style name="Accent.Orange">
+        <item name="colorAccent">@color/accent_orange</item>
+        <item name="colorControlHighlight">@color/accent_orange</item>
+        <item name="alertDialogTheme">@style/Accent.Orange.AlertDialog</item>
+    </style>
+
+    <style name="Accent.Orange.AlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/accent_orange</item>
+    </style>
+
+    <style name="Accent.Yellow">
+        <item name="colorAccent">@color/accent_yellow</item>
+        <item name="colorControlHighlight">@color/accent_yellow</item>
+        <item name="alertDialogTheme">@style/Accent.Yellow.AlertDialog</item>
+    </style>
+
+    <style name="Accent.Yellow.AlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/accent_yellow</item>
+    </style>
+
+    <style name="Accent.Green">
+        <item name="colorAccent">@color/accent_green</item>
+        <item name="colorControlHighlight">@color/accent_green</item>
+        <item name="alertDialogTheme">@style/Accent.Green.AlertDialog</item>
+    </style>
+
+    <style name="Accent.Green.AlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/accent_green</item>
+    </style>
+
+    <style name="Accent.Cyan">
+        <item name="colorAccent">@color/accent</item>
+        <item name="colorControlHighlight">@color/accent</item>
+        <item name="alertDialogTheme">@style/Accent.Cyan.AlertDialog</item>
+    </style>
+
+    <style name="Accent.Cyan.AlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/accent</item>
+    </style>
+
+    <style name="Accent.Blue">
+        <item name="colorAccent">@color/accent_blue</item>
+        <item name="colorControlHighlight">@color/accent_blue</item>
+        <item name="alertDialogTheme">@style/Accent.Blue.AlertDialog</item>
+    </style>
+
+    <style name="Accent.Blue.AlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/accent_blue</item>
+    </style>
+
+    <style name="Accent.Purple">
+        <item name="colorAccent">@color/accent_purple</item>
+        <item name="colorControlHighlight">@color/accent_purple</item>
+        <item name="alertDialogTheme">@style/Accent.Purple.AlertDialog</item>
+    </style>
+
+    <style name="Accent.Purple.AlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/accent_purple</item>
+    </style>
+
+    <style name="Accent.Grey">
+        <item name="colorAccent">@color/accent_grey</item>
+        <item name="colorControlHighlight">@color/accent_grey</item>
+        <item name="alertDialogTheme">@style/Accent.Grey.AlertDialog</item>
+    </style>
+
+    <style name="Accent.Grey.AlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/accent_grey</item>
+    </style>
+
+    <style name="Accent.Black">
+        <item name="colorAccent">@color/accent_black</item>
+        <item name="colorControlHighlight">@color/accent_black</item>
+        <item name="alertDialogTheme">@style/Accent.Black.AlertDialog</item>
+    </style>
+
+    <style name="Accent.Black.AlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/accent_black</item>
+    </style>
+
+</resources>

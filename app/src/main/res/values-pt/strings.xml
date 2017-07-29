@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Syncasts</string>
+
+    <string name="title_tab_discover">Descobrir</string>
+    <string name="title_tab_subscriptions">Assinaturas</string>
+    <string name="title_theme_primary">Cor primária</string>
+    <string name="title_theme_accent">Cor secundária</string>
+    <string name="title_dialog_error">Desculpe</string>
+
+    <string name="label_show_notes">Descrição</string>
+    <string name="label_description">Descrição</string>
+    <string name="label_episodes_count">%1$d episódios</string>
+
+    <string name="message_deleted_episode">Episódio removido</string>
+    <string name="message_no_search_results">Sem resultados para\n“%1$s”</string>
+
+    <string name="error_playing_episode">Ocorreu um erro na reprodução do episódio</string>
+    <string name="error_no_network">Internet não encontrada. Verifique sua conexão e tente novamente.</string>
+
+    <string name="search_hint">Procure por nome ou tópico</string>
+
+    <string name="action_search">Procura</string>
+    <string name="action_try_connect">Tentar novamente</string>
+    <string name="action_skip">Pular</string>
+    <string name="action_play">Play</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_previous">Anterior</string>
+    <string name="action_change_country">Mudar país</string>
+    <string name="action_download">Download</string>
+    <string name="action_selected_one">%1$s selecionado</string>
+    <string name="action_selected_many">%1$s selecionados</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_back">Voltar</string>
+    <string name="action_played">Reproduzido</string>
+    <string name="action_delete">Remover</string>
+    <string name="action_select_all">Selecionar tudo</string>
+    <string name="action_unplayed">Não reproduzido</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="australia">Australia</string>
+    <string name="belgium">Bélgica</string>
+    <string name="brazil">Brasil</string>
+    <string name="canada">Canadá</string>
+    <string name="china">China</string>
+    <string name="denmark">Dinamarca</string>
+    <string name="france">França</string>
+    <string name="germany">Alemanha</string>
+    <string name="italy">Itália</string>
+    <string name="japan">Japão</string>
+    <string name="norway">Noruega</string>
+    <string name="russia">Rússia</string>
+    <string name="spain">Espanha</string>
+    <string name="sweden">Suécia</string>
+    <string name="switzerland">Suíça</string>
+    <string name="united_kingdom">Inglaterra</string>
+    <string name="united_states">Estados Unidos</string>
+
+</resources>
