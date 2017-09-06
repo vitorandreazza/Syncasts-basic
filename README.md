@@ -1,6 +1,6 @@
 ﻿# Syncasts-basic
 
-A simpler version of Syncasts a multi-platform podcast manager (Android and Web) that automatically syncs your podcasts progress.(Available soon on Google Play)
+A simpler version of Syncasts a multi-platform podcast manager (Android and Web) that automatically syncs your podcasts progress.
 
  <img src="https://user-images.githubusercontent.com/13208752/28739442-6c5110a4-73d1-11e7-8999-79b1b17fa15a.png" width="288" height="512"> <img src="https://user-images.githubusercontent.com/13208752/28742415-1ac3c6b6-7406-11e7-90d3-52fcfc289b89.png" width="288" height="512"> <img src="https://user-images.githubusercontent.com/13208752/28742416-1ac44e24-7406-11e7-96dc-240c0aaee3c3.png" width="288" height="512">
  <img src="https://user-images.githubusercontent.com/13208752/28742417-1ac525ce-7406-11e7-9eb7-21ea45ca356d.png" width="288" height="512"> <img src="https://user-images.githubusercontent.com/13208752/28742419-1ac97b56-7406-11e7-97c6-3871bbb844af.png" width="288" height="512"> <img src="https://user-images.githubusercontent.com/13208752/28742418-1ac68e3c-7406-11e7-85c0-1d51d051c436.png" width="288" height="512">
